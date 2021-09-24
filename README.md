@@ -23,4 +23,4 @@ yarn dev
 ```
 ---
 
-Você pode visualizar este projeto [aqui](https://ui-clone-g4.vercel.app)
+Tou can test this project [here](https://ui-clone-g4.vercel.app)
