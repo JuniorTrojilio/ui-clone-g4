@@ -1,0 +1,28 @@
+.git {
+  background: #0f151b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+
+  h3 {
+    color: #fff;
+    font-size: 1rem;
+
+    a {
+      cursor: pointer;
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+  }
+
+  p {
+    padding: 1rem;
+    color: #fff;
+
+    span {
+      color: var(--color-primary);
+    }
+  }
+}

@@ -1,0 +1,81 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 2rem;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .carrossel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    padding: 0 2rem;
+    
+
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+    div {
+      background: #fff;
+      flex: none;
+      margin: 0 60px;
+
+      img {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  }
+
+  .buttons {
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+
+  .btnprev {
+    position: absolute;
+    left: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #444;
+    opacity: 0.7;
+
+    svg {
+      font-size: 3rem;
+    }
+  }
+
+  .btnnext {
+    position: absolute;
+    right: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #444;
+    opacity: 0.7;
+
+    svg {
+      font-size: 3rem;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .btnprev, .btnnext {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    
+  }
+}

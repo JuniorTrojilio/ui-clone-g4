@@ -1,0 +1,21 @@
+:root {
+  --color-primary: #F04D57;
+  --color-secundary: #0F151B;
+  --background: #fff;
+  --text-h1: #272C32;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background: var(--background);
+  font-family: sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
