@@ -8,12 +8,12 @@ export const Header = () => {
     <header className={styles.container}>
         <img src="/logog4.png" alt="" />
         <nav>
-          <a href="/">Presencial</a>
-          <a href="/">Online</a>
-          <a href="/">Conteúdo</a>
-          <a href="/">Sobre</a>
-          <a href="/">Contato</a>
-          <a href="/">Trabalhe conosco</a>
+          <a>Presencial</a>
+          <a>Online</a>
+          <a>Conteúdo</a>
+          <a>Sobre</a>
+          <a>Contato</a>
+          <a>Trabalhe conosco</a>
         </nav>
         <div className={styles.calltoaction}>
           <button>Confira nossos programas digitais</button>

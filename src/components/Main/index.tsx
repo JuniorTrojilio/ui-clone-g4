@@ -27,7 +27,7 @@ export const Main = () => {
         <img height="360px" className={styles.analiseImg} src="gestao.png" alt="gestao" />
       </section>
       <div className={styles.divLink}>
-        <a href="/">Quero participar do gestão 4.0</a>
+        <a>Quero participar do gestão 4.0</a>
       </div>
       <section className={styles.employes}>
         <h2>Conheça algumas empresas que confiam no gestão 4.0</h2>
@@ -64,35 +64,35 @@ export const Main = () => {
               <strong>Gestão 4.0 - Imersão e Mentoria</strong>
               <p>Destinada a líderes em posição estratégica, essa Imersão e Mentoria aborda os conceitos mais inovadores de gestão utilizados em empresas como Amazon, Google, Microsoft e Facebook.</p>
               <button>Quero Me Inscrever</button>
-              <a href="/">+ Detalhes sobre a Imersão e Mentoria da G4</a>
+              <a>+ Detalhes sobre a Imersão e Mentoria da G4</a>
             </div>
             <div>
               <img src="HPGrowth.png" alt="" />
               <strong>G4 Growth - Imersão e Mentoria</strong>
               <p>Programa pensado para ajudar você a aplicar os frameworks de crescimento e escala usados pelas maiores empresas do mundo no seu negócio de forma prática e independente do seu tamanho ou modelo.</p>
               <button>Quero Me Inscrever</button>
-              <a href="/">+ Detalhes sobre a Imersão e Mentoria da G4</a>
+              <a>+ Detalhes sobre a Imersão e Mentoria da G4</a>
             </div>
             <div>
               <img src="HPCX.png" alt="" />
               <strong>G4 Customer Experience - Imersão e Mentoria</strong>
               <p>Um programa de Imersão e Mentoria desenhado para líderes que buscam transformar suas empresas, focando na melhor experiência de seus clientes e construção de uma base de fãs.</p>
               <button>Quero Me Inscrever</button>
-              <a href="/">+ Detalhes sobre a Imersão e Mentoria da G4</a>
+              <a>+ Detalhes sobre a Imersão e Mentoria da G4</a>
             </div>
             <div>
               <img src="HPGSales.png" alt="" />
               <strong>G4 Sales - Imersão em Vendas</strong>
               <p>Aprenda como crescer seu negócio em um programa de Imersão em Vendas focado para líderes que querem ter mais previsibilidade dos resultados. Descubra os segredos por trás das estratégias e processos de vendas das empresas mais bem sucedidas do mercado.</p>
               <button>Quero Me Inscrever</button>
-              <a href="/">+ Detalhes sobre a Imersão e Mentoria da G4</a>
+              <a>+ Detalhes sobre a Imersão e Mentoria da G4</a>
             </div>
             <div>
               <img src="HG4.png" alt="" />
               <strong>G4 In Company - Imersão na sua Empresa</strong>
               <p>Leve toda a experiência dos nossos mentores para sua equipe. Treinamentos customizados para todo o seu time através de uma Metodologia 4.0 de aprendizagem continuada contemplando live de lançamento do projeto, assessment, aplicação do conteúdo e mentorias Q&A direcionadas.</p>
               <button>Quero Me Inscrever</button>
-              <a href="/">+ Detalhes sobre a Imersão e Mentoria da G4</a>
+              <a>+ Detalhes sobre a Imersão e Mentoria da G4</a>
             </div>
           </div>
         ) : (

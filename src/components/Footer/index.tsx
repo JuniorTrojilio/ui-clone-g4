@@ -16,31 +16,31 @@ export const Footer = () => {
         </div>
         <div>
           <strong>Imersões Presenciais</strong>
-          <a href="/">Gestão 4.0</a>
-          <a href="/">Growth</a>
-          <a href="/">Customer Experience</a>
-          <a href="/">G4 Sales</a>
-          <a href="/">In Company</a>
+          <a>Gestão 4.0</a>
+          <a>Growth</a>
+          <a>Customer Experience</a>
+          <a>G4 Sales</a>
+          <a>In Company</a>
         </div>
         <div>
           <strong>Cursos Online</strong>
-          <a href="/">G4 Fundamentos</a>
-          <a href="/">G4 Startups</a>
-          <a href="/">G4 Growth Online</a>
-          <a href="/">G4 CX Online</a>
-          <a href="/">G4 lives</a>
-          <a href="/">G4 Digital Commerce</a>
-          <a href="/">G4 Aceleração de Vendas</a>
-          <a href="/">Formação G4</a>
+          <a>G4 Fundamentos</a>
+          <a>G4 Startups</a>
+          <a>G4 Growth Online</a>
+          <a>G4 CX Online</a>
+          <a>G4 lives</a>
+          <a>G4 Digital Commerce</a>
+          <a>G4 Aceleração de Vendas</a>
+          <a>Formação G4</a>
         </div>
         <div>
           <strong>Institucional</strong>
-          <a href="/">Quem somos</a>
-          <a href="/">Vagas Abertas</a>
-          <a href="/">Nossos Podcasts</a>
-          <a href="/">Nossos Artigos</a>
-          <a href="/">Nosso Youtube</a>
-          <a href="/">Entre em contato</a>
+          <a>Quem somos</a>
+          <a>Vagas Abertas</a>
+          <a>Nossos Podcasts</a>
+          <a>Nossos Artigos</a>
+          <a>Nosso Youtube</a>
+          <a>Entre em contato</a>
         </div>
     </footer>
   )
