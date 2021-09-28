@@ -94,31 +94,26 @@
   .about {
     margin-top: 3rem;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 1200px;
-    justify-content: space-between;
+    max-width: 1200px; 
 
     .imagem {
+      display: flex;
       position: relative;
-      cursor: pointer;   
+      cursor: pointer;
 
       img {
         filter: opacity(.95);
-        width: 460px;
-        height: 330px;
-      }
-
-      svg {
-        color: white;
-        font-size: 150px;
-        position: absolute;
-        left: 35%;
-        top: 25%;
+        max-width: 100%;
+        height: auto;
       }
     }
 
     div {
+      max-width: 500px;
+      margin: 1rem;
       h2 {
         font-size: 2.5rem;
         font-weight: bold;
@@ -181,9 +176,10 @@
 
   .cursesPresencial {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     max-width: 1200px;
+    padding: 0 .5rem;
 
     @media screen and (max-width: 1240px) {
       justify-content: center;
@@ -191,7 +187,6 @@
 
     div {
       border-radius: 1rem;
-      margin: 1rem;
       display: flex;
       flex-direction: column;
       width: 360px;
@@ -255,9 +250,10 @@
 
   .cursesOnline {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     max-width: 1200px;
+    padding: 0 .5rem;
 
     @media screen and (max-width: 1240px) {
       justify-content: center;

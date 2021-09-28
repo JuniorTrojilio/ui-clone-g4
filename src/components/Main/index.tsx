@@ -36,7 +36,6 @@ export const Main = () => {
       <section className={styles.about}>
         <div className={styles.imagem}>
           <img src="/mg.png" alt="turma gestão" />
-          <MdPlayCircleOutline />
         </div>
         <div>
           <h2>Imersão e Mentoria para líderes</h2>
